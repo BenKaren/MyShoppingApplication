@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fagment_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.myshoppingapplication.fragment.DrawerFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_gravity="left"
+            >
+
+            <LinearLayout
+                android:background="@drawable/btn_selector"
+                android:paddingLeft="20dp"
+                android:paddingTop="50dp"
+                android:id="@+id/today"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_test"
+                    android:layout_width="30dp"
+                    android:layout_height="55dp"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:text="今"
+                    android:textSize="22sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="今日购"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:clickable="true"
+                android:background="@drawable/btn_selector"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="18dp"
+
+                android:id="@+id/value"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/value_button"
+                    android:layout_width="30dp"
+                    android:layout_height="55dp"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:text="值"
+                    android:textSize="22sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="超值购"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:clickable="true"
+                android:background="@drawable/btn_selector"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="18dp"
+                android:id="@+id/walk"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="55dp"
+                    android:text="逛"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="22sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="值得逛"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="8sp"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:clickable="true"
+                android:background="@drawable/btn_selector"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="18dp"
+                android:id="@+id/morning"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="55dp"
+                    android:text="明"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="22sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="明日抢"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
